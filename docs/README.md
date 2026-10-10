@@ -1,3 +1,6 @@
-# Docs
+# docs/
+Dokumentasi bisnes Qadiman Trading / Qadiman Curtain.
 
-Additional documentation and reusable templates.
+- `company/` maklumat rasmi syarikat
+- `brand/` brand book dan peraturan logo
+- `strategy/` project charter, business case

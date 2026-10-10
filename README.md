@@ -1,28 +1,17 @@
 # Qadiman-Business-OS
+Private knowledge base and AI operations for Qadiman Trading
 
-Private knowledge base and AI operations for **Qadiman Curtain / Qadiman Trading**.
+> ⚠️ Keep this repo **private** before adding prices, supplier details or customer data.
 
-Family-owned custom curtain service: measurement, sewing, delivery, installation, and home visit services.
+## Struktur / Structure
 
-## Folder Structure
+| Folder | Isi |
+|---|---|
+| [`docs/`](docs/) | Dokumentasi bisnes: profil syarikat, brand, project charter, business case |
+| [`sop/`](sop/) | SOP operasi: lawatan rumah, ukur, quotation, jahit, pasang, follow-up |
+| [`templates/`](templates/) | Template boleh guna semula: quotation, borang lawatan, katalog, mesej WhatsApp |
+| [`ops/`](ops/) | Operasi AI: peranan bot, peraturan group, routine, log keputusan |
+| [`sales/`](sales/) | Lead, pipeline dan rekod pelanggan (jangan simpan data peribadi selagi repo public) |
+| [`marketing/`](marketing/) | Poster, caption, rancangan post FB/IG/Reels |
 
-```
-├── knowledge/          # Business knowledge base
-│   ├── brand/           # Brand identity, guidelines, assets notes
-│   ├── products/        # Curtain types, materials, specs, measurement standards
-│   ├── processes/       # Home visit, measurement, sewing, install SOPs
-│   └── customers/       # Customer profiles, preferences, history templates
-├── ops/                # Operations & execution
-│   ├── quotations/      # Quotation templates & records
-│   ├── home-visits/     # Home visit forms, checklists, reports
-│   ├── orders/          # Order tracking, SO forms, status
-│   └── inventory/       # Fabric, hardware, stock notes
-├── prompts/            # AI prompts & operations templates
-│   └── ai-ops/
-├── docs/               # Documentation & templates
-│   └── templates/
-└── assets/             # Brand & media assets (references)
-    └── brand/
-```
-
-Created for Qadiman Curtain operations.
+Workflow: enquiry → home visit → measurement → fabric selection → costing → quotation → decision → sewing → installation → payment → follow-up/referral.
